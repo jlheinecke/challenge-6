@@ -1,0 +1,47 @@
+.container {
+    position:absolute;
+}
+.container1 {
+    border-style: solid;
+    width: 20%;
+    height: 100vh;
+    padding: 2%;
+    position: absolute
+}
+
+.container2 {
+    border-style: solid;
+    width: 80%;
+    height: 30vh;
+    padding: 2%;
+    position: relative;
+    left: 25%;
+    font-weight: bold;
+}
+
+#location {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.button {
+    width: 100%;
+    background-color:burlywood;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+}
+
+#search {
+    font-weight: bolder;
+    font-size: 130%;
+}
+
+#city {
+    max-width: 100%;
+}
