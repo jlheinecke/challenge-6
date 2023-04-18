@@ -1,8 +1,14 @@
+h1 {
+    width: 100vw;
+    text-align: center;
+    background-color: lightblue;
+}
 .container {
     position:absolute;
+    
 }
 .container1 {
-    border-style: solid;
+    /* border-style: solid; */
     width: 20%;
     height: 100vh;
     padding: 2%;
@@ -11,12 +17,88 @@
 
 .container2 {
     border-style: solid;
-    width: 80%;
+    width: auto;
+    height: 30vh;
+    margin-right: 2%;
+    padding: 2%;
+    position: relative;
+    left: 25%;
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+.flex-child {
+    margin-right: 20px;
+} 
+
+.container3 {
+    border-style: solid;
+    background-color: cornsilk;
+    width: auto;
     height: 30vh;
     padding: 2%;
     position: relative;
     left: 25%;
     font-weight: bold;
+    margin-top: 2%;
+}
+
+.container4 {
+    border-style: solid;
+    background-color: cornsilk;
+    width: auto;
+    height: 30vh;
+    padding: 2%;
+    position: relative;
+    left: 25%;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.container5 {
+    border-style: solid;
+    background-color: cornsilk;
+    width: auto;
+    height: 30vh;
+    padding: 2%;
+    position: relative;
+    left: 25%;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.container6 {
+    border-style: solid;
+    background-color: cornsilk;
+    width: auto;
+    height: 30vh;
+    padding: 2%;
+    position: relative;
+    left: 25%;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.container7 {
+    border-style: solid;
+    background-color: cornsilk;
+    width: auto;
+    height: 30vh;
+    padding: 2%;
+    position: relative;
+    left: 25%;
+    font-weight: bold;
+    margin-top: 2%;
 }
 
 #location {
@@ -27,6 +109,13 @@
 .button {
     width: 100%;
     background-color:burlywood;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#weath {
+    width: 100%;
+    background-color:rgb(135, 173, 222);
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -44,4 +133,25 @@ h1 {
 
 #city {
     max-width: 100%;
+}
+
+#img {
+    position: relative;
+    left: 250px;
+    bottom: 200px
+}
+
+#img1 {
+    display: flex;
+    flex-wrap: wrap;
+    left: 200px;
+    bottom: 200px
+
+}
+#img2 {
+    display: flex;
+    flex-wrap: wrap;
+    left: 200px;
+    bottom: 200px
+
 }

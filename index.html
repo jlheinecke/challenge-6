@@ -13,32 +13,31 @@
     <title>Weather App</title>
 </head>
 <body>
-    <h1>Weather App</h1>
+    <h1>Weather Forecast</h1>
 <div class="container">
     <div class="container1">
       <div class="row">
         <div class="col">
           <label id="search" for="city">Search for a city:</label>
           <input type="text" id="city" name="city"><br><br>
-          <button type="button" id="save">Search</button>
-          <button type="button" id="weath">Forecast</button>
+          <button type="button" id="weath">Get Forecast</button>
           <br>
           <div>
-          <button class="button">Atlanta</button>
+          <button id="1" class="button">Atlanta</button>
           <br>
-          <button class="button">Denver</button>
+          <button id="2" class="button">Denver</button>
           <br>
-          <button class="button">Seattle</button>
+          <button id="3" class="button">Seattle</button>
           <br>
-          <button class="button">San Francisco</button>
+          <button id="4" class="button">San Francisco</button>
           <br>
-          <button class="button">Orlando</button>
+          <button id="5" class="button">Orlando</button>
           <br>
-          <button class="button">New York</button>
+          <button id="6" class="button">New York</button>
           <br>
-          <button class="button">Chicago</button>
+          <button id="7" class="button">Chicago</button>
           <br>
-          <button class="button">Austin</button>
+          <button id="8" class="button">Austin</button>
         </div>
         </div>
       </div>
@@ -47,15 +46,80 @@
       <div class="row">
         <div class="col">
           <div style="display: flex;">
-          <p id="location">  </p>
-          <p id="current"></p>
+          <p id="location"></p>
         </div>
           <p id="temp"></p>
           <p id="wind"></p>
           <p id="humidity"></p>
+          <img id="img" src="">
         </div>
       </div>
     </div>
+    <div class="flex-container">
+    <div class="container3 flex-child">
+      <div class="row">
+        <div type="image" class="col">
+          <div style="display: flex;">
+          <p id="day1"></p>
+        </div>
+          <p id="temp1"></p>
+          <p id="wind1"></p>
+          <p id="humidity1"></p>
+          <img id="img" src="">
+        </div>
+      </div>
+    </div>
+    <div class="container4 flex-child">
+      <div class="row">
+        <div class="col">
+          <div style="display: flex;">
+          <p id="day2"></p>
+        </div>
+          <p id="temp2"></p>
+          <p id="wind2"></p>
+          <p id="humidity2"></p>
+          <!-- <img id="img2" src=""> -->
+        </div>
+      </div>
+    </div>
+    <div class="container5 flex-child">
+      <div class="row">
+        <div class="col">
+          <div style="display: flex;">
+          <p id="day3"></p>
+        </div>
+          <p id="temp3"></p>
+          <p id="wind3"></p>
+          <p id="humidity3"></p>
+        </div>
+      </div>
+    </div>
+    <div class="container6 flex-child">
+      <div class="row">
+        <div class="col">
+          <div style="display: flex;">
+          <p id="day4"></p>
+        </div>
+          <p id="temp4"></p>
+          <p id="wind4"></p>
+          <p id="humidity4"></p>
+        </div>
+      </div>
+    </div>
+    <div class="container7 flex-child">
+      <div class="row">
+        <div class="col">
+          <div style="display: flex;">
+          <p id="day5"></p>
+        </div>
+          <p id="temp5"></p>
+          <p id="wind5"></p>
+          <p id="humidity5"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
   </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"></script>
